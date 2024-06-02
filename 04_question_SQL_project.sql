@@ -1,7 +1,9 @@
---otazka_4: Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
+-- otazka_4: Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
 	
---Nastesti takova situaci nikdy nenastala, a nejvyssi narust byl 6,6% v roce 2013.
---Pote v roce 2012 byl rozdil 3,8% a v roce 2017 3,5%.
+-- Neexistuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %).
+-- Největší rozdíl nárůstu cen potravin a mezd byl v roce 2013 o 6,66% (potraviny rostly o 5,1 % a naopak mzdy klesaly o 1,56 %).
+-- Největší nárůst cen potravin byl v roce 2017 a to o 9,63% (mzdy rostly o 6,17 %).
+-- Největší nárůst mezd byl v roce 2008 o 7,69 % (potraviny rostly o 6,19 %).
 
 CREATE OR REPLACE VIEW v_fourth_question AS 
 SELECT
