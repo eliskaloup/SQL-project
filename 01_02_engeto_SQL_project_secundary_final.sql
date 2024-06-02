@@ -1,5 +1,4 @@
---sekundarni tabulka
-
+-- Sekundarni tabulka
 
 CREATE OR REPLACE TABLE t_eliska_loup_project_SQL_secondary_final AS 
 SELECT e.country,
@@ -18,6 +17,6 @@ ORDER BY c.country, e.year
 SELECT *
 FROM t_eliska_loup_project_SQL_secondary_final AS sf
 
---tuto tabulku jsem nakonec ani nepouzila, vychazela jsem z primary, kde jsem vyfiltrovala pouze Cesko, prijde mi zbytecne vychazet z teto tabulky,
---protoze kdyz HDP je ovlivneno v Evrope tak je i v Cesku. A nebylo tedy receno kokretne, zda se 5. otazka vztahuje z hlediska na EU nebo CZ
+-- Tuto tabulku jsem nakonec ani nepouzila, vychazela jsem z primary, kde jsem vyfiltrovala pouze Cesko, prijde mi zbytecne vychazet z teto tabulky,
+-- protoze kdyz HDP je ovlivneno v Evrope tak je i v Cesku. A nebylo tedy receno konkretne, zda se 5. otazka vztahuje z hlediska na EU nebo CZ.
 	
