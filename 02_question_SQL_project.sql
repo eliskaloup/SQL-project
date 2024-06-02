@@ -1,9 +1,7 @@
---Otazka_2: Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+--otazka_2: Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
----první období je rok 2006 a poslední je rok 2018
-
---Chlebu bychom si mohli koupit v roce 2006 919kg a v roce 2018 az 1051kg.
---Mleka bychom si mohli koupit v roce 2006 1026l a v roce 2018 az 1285l.
+--Za první období, rok 2006 je možné si z průměrné mzdy 20.75 Kč koupit- 1.287 Ks chlebů, při ceně 16,12 Kč / Ks nebo 1.437 L mléka, při ceně 14,43 Kč / L.
+--Za poslední srovnatelné období, rok 2018 při průměrné mzdě 32.53 Kč je možné koupit- 1.342 Ks chlebů při ceně 24,23 Kč / Ks nebo 1.642 L mléka, při ceně 19,81 Kč / L.
 
 SELECT categ_code,
 	cat_name,
