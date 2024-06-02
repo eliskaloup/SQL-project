@@ -24,4 +24,6 @@ SELECT *,
 	END AS payroll_growth
 FROM v_first_quest
 WHERE payroll_year BETWEEN 2007 AND 2018
-ORDER BY ib_code;
+ORDER BY ib_code, payroll_year;
+
+--pouzila jsem BETWEEN 2007, protoze v roce 2006 jsou vsechny NUll
