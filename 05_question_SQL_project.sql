@@ -18,7 +18,7 @@
 	--Co se tyce cen potravin,tak jsme zaznamenali ze v roce 2006 a 2007 extremni narust cen, TO je uplne opacny pripad roku 2017 a 2018 kdy byl extremni pokles cen,
 	--Co se tyce let 2015 a 2016 tak urcite velke vykyvy nastaly, ale spise se drzi kolem 0 a +- 15 %
 
-	
+--(Co se tyce tabulky ohledne poklesu mezd, tak jsem vychazela z excel tabulky 01_question_excel_screenshot)
 	
 
 CREATE OR REPLACE VIEW v_fifth_question AS 
