@@ -3,7 +3,7 @@
 ---první období je rok 2006 a poslední je rok 2018
 
 --Chlebu bychom si mohli koupit v roce 2006 919kg a v roce 2018 az 1051kg.
-Mleka bychom si mohli koupit v roce 2006 1026l a v roce 2018 az 1285l.
+--Mleka bychom si mohli koupit v roce 2006 1026l a v roce 2018 az 1285l.
 
 SELECT categ_code,
 	cat_name,
