@@ -1,3 +1,4 @@
+--primarni tabulka
 CREATE OR REPLACE TABLE t_eliska_loup_project_SQL_primary_final AS 
 SELECT czpay.industry_branch_code AS ib_code,
 	ind_br.name AS ind_name,
@@ -30,6 +31,7 @@ ORDER BY ib_code, payroll_year, categ_code, czp.date_from;
 SELECT *
 FROM t_eliska_loup_project_sql_primary_final AS telpspf;
 
+---postup jak jsem k ni dosla
 --kde jsou NULL hodnoty?
 SELECT *
 FROM czechia_payroll AS cp   
