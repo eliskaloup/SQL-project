@@ -1,4 +1,4 @@
---otazka_5: Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
+--Otazka_5: Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
 
 --HDP rostlo v roce 2007, 2015, 2017
     --kleslo 2009, 2012, 2013
@@ -29,7 +29,7 @@ FROM t_eliska_loup_project_sql_primary_final AS pf
 JOIN t_eliska_loup_project_sql_primary_final AS pf2 
 	ON pf.payroll_year = pf2.payroll_year + 1
 GROUP BY pf.payroll_year
-ORDER BY pf.payroll_year 
+ORDER BY pf.payroll_year;
 
 
 SELECT *,
@@ -39,7 +39,7 @@ SELECT *,
 		ELSE 'negative gdp growth'
 	END AS hdp_growth
 FROM v_fifth_question AS f
-ORDER BY gdp_percent DESC 
+ORDER BY gdp_percent DESC;
 
 
 --tabulka pouze kategorii produktu.
@@ -67,4 +67,4 @@ SELECT *,
         ELSE 'Decrease'
 	END AS price_growth
 FROM v_fifth_question_products f
-ORDER BY percentage_difference DESC 
+ORDER BY percentage_difference DESC;
