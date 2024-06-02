@@ -1,4 +1,4 @@
--- primarni tabulka
+-- Primarni tabulka
 
 CREATE OR REPLACE TABLE t_eliska_loup_project_SQL_primary_final AS 
 SELECT czpay.industry_branch_code AS ib_code,
