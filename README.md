@@ -43,9 +43,15 @@ year_price - rok měření cen potravin,
 payroll_id - jedinečné ID z tabulky mezd,
 
 avg_payroll_value - prumerna mzda v Kč,
+
 value_type_code - kód pro mzdy zaměstnanců (5958),
+
 payroll_year - rok vyplácení mezd,
+
 ib_code - kód odvětví,
+
 cat_name - nazev potraviny,
+
 ind_name - odvětví ,
+
 GDP - HDP
