@@ -33,10 +33,15 @@ Poznámky k projektu:
 Primární tabulka - Spojila jsem několik tabulek do sebe pro získání potřebných dat. Začínala jsem s czechia_price a postupně jsem napojila všechny další na základě společných hodnot.
 
 Sloupce v primární tabulce:
+
 avg_price_value - průměry cen v Kč,
+
 categ_code - kategorie potravin,
+
 year_price - rok měření cen potravin,
+
 payroll_id - jedinečné ID z tabulky mezd,
+
 avg_payroll_value - prumerna mzda v Kč,
 value_type_code - kód pro mzdy zaměstnanců (5958),
 payroll_year - rok vyplácení mezd,
