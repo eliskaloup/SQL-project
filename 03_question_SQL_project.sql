@@ -1,7 +1,12 @@
---otazka_3: Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
+-- Otazka_3: Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
 
---Nejpomaleji se v prubehu let zdrazuje cukr, rajcata, banány, dále vepřové pečeně a pak minerální voda
---jen musím upozornit, že u vína je jen měření posledních 4 let 2015-2018
+-- Při porovnání prvního a posledního měřeného období - roků 2006 a 2018 můžeme definovat rozdíl v cenách.
+-- Nejpomaleji zdražuje za celé období -
+-- Cukr krystalový - pokles o 27,52 % z 21,73 Kč na 15,75 Kč
+-- Rajská jablka červená kulatá - pokles o 23,07 % z 57,83 Kč na 44,49 Kč
+-- Banány žluté - nárůst o 7,38 % z 27,3 Kč na 29,32 Kč
+
+-- (U vína je jen měření pouze z posledních 4 let 2015-2018)
 
 SELECT pf.categ_code,
 	pf.cat_name,
