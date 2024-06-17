@@ -1,9 +1,5 @@
 -- Otazka_2: Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
--- výsledek:
--- Mléka bychom si mohli koupit v roce 2006 1026 litrů a v roce 2018 už 1285 litrů
--- Chleba bychom si mohli koupit v roce 2006 919 kilo a v roce 2018 už 1051 kilo
-
 SELECT categ_code,
 	cat_name,
 	payroll_year,
