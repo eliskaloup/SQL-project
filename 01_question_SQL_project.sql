@@ -1,5 +1,7 @@
 -- Otazka_1: Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 
+--pouzila jsem BETWEEN 2007, protoze v roce 2006 jsou vsechny NULL
+
 CREATE OR REPLACE VIEW v_first_quest AS 
 SELECT 	ib_code,
 	ind_name,
@@ -18,5 +20,3 @@ SELECT *,
 FROM v_first_quest
 WHERE payroll_year BETWEEN 2007 AND 2018
 ORDER BY ib_code, payroll_year;
-
---pouzila jsem BETWEEN 2007, protoze v roce 2006 jsou vsechny NUll
