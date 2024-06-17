@@ -18,16 +18,16 @@
 Je definováno 5 otázek-
 
 1. Rostou v průběhu let mzdy ve všech odvětvích nebo v některých klesají?
-  Jednoznačně se nedá odpovědět. Ve vetsine odvetvi mzdy obcas klesly, pouze ve 3 odvetvich nikdy neklesly a to v Zpracovatelskem prumyslu, Zdravotnictvi a Ostatnich cinnostech.
-  Nejvice klesly mzdy v Tezebnictvi- 4 poklesy v letech 2009, 2013, 2014 a 2016.
+Jednoznačně se nedá odpovědět. Ve vetsine odvetvi mzdy obcas klesly, pouze ve 3 odvetvich nikdy neklesly a to v Zpracovatelskem prumyslu, Zdravotnictvi a Ostatnich cinnostech. 
+Nejvice klesly mzdy v Tezebnictvi- 4 poklesy v letech 2009, 2013, 2014 a 2016.
     
-2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+3. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
   - Mléka bychom si mohli koupit v roce 2006 1026 litrů a v roce 2018 už 1285 litrů.
   - Chleba bychom si mohli koupit v roce 2006 919 kilo a v roce 2018 už 1051 kilo.
     
 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
-  Pokud počítáme i období, kdy cena klesla, tak cukr a rajčata zlevnily a nejpomaleji cena stoupala u banánů. Jen musím upozornit, že u vína proběhlo měření pouze posledních 4 let 2015-2018.
-  Nejpomaleji zdražuje za celé období:
+Pokud počítáme i období, kdy cena klesla, tak cukr a rajčata zlevnily a nejpomaleji cena stoupala u banánů. Jen musím upozornit, že u vína proběhlo měření pouze posledních 4 let 2015-2018.
+Nejpomaleji zdražuje za celé období:
   - Cukr krystalový - pokles o 27,52 % z 21,73 Kč na 15,75 Kč
   - Rajská jablka červená kulatá - pokles o 23,07 % z 57,83 Kč na 44,49 Kč
   - Banány žluté - nárůst o 7,38 % z 27,3 Kč na 29,32 Kč
@@ -36,17 +36,18 @@ Je definováno 5 otázek-
 - Největší rozdíl nárůstu cen potravin a mezd byl v roce 2013 o 6,66% (potraviny rostly o 5,1 % a naopak mzdy klesaly o 1,56 %).
 - Největší nárůst cen potravin byl v roce 2017 a to o 9,63% (mzdy rostly o 6,17 %).
 - Největší nárůst mezd byl v roce 2008 o 7,69 % (potraviny rostly o 6,19 %).
+
 Neexistuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd.
 
 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
 HDP rostlo v roce 2007, 2015, 2017 a kleslo v letech 2009, 2012, 2013 (beru tedy v potaz rok kdy nastala zmena hdp a i nasledujici rok).
+  - V roce 2006 a 2007 byl extremni narust cen u vice jak 20 druhu potravin (narust az 66 %).
+  - V roce 2015 a 2016 byly velke vykyvy, spise se hladina udrzovala kolem nuly.
+  - V roce 2017 a 2018 byl extremni pokles cen, a to u vice jak 15 druhu potravin (pokles az 31 %).
+    
+V letech co HDP rostlo jsme zaznamenali pouze par poklesu ve mzdach, takze urcite jde videt ze HDP toto ovlivlino.
 
-- V roce 2006 a 2007 byl extremni narust cen u vice jak 20 druhu potravin (narust az 66 %).
-- V roce 2015 a 2016 byly velke vykyvy, spise se hladina udrzovala kolem nuly.
-- V roce 2017 a 2018 byl extremni pokles cen, a to u vice jak 15 druhu potravin (pokles az 31 %).
-
-- V letech co HDP rostlo jsme zaznamenali pouze par poklesu ve mzdach, takze urcite jde videt ze HDP toto ovlivlino.
-- Nejvice ovlivnil pokles HDP rok 2012, protoze v roce 2013 byl ovlivnen pokles mezd u 11 odvetvi z celkovych 19.
+Nejvice ovlivnil pokles HDP rok 2012, protoze v roce 2013 byl ovlivnen pokles mezd u 11 odvetvi z celkovych 19.
 
 Finalni shrnuti:
 Kdyz v letech 2007, 2015, 2017 HDP melo nejvetsi procentualni narust tak se mzdy ve velke prevaze zvysovaly. 
