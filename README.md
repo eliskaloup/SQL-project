@@ -1,4 +1,43 @@
-# Analýza dostupnosti základních potravin široké veřejnosti
+# Analysis of the Availability of Basic Foodstuffs to the General Public
+
+
+**Description of Datasets and Tables Used in the Project - PRIMARY PROJECT TABLE**
+---
+
+czechia_payroll – Information about wages in various sectors over several years. The dataset comes from the Czech Republic's Open Data Portal.
+czechia_price – Information about the prices of selected groceries over several years. The dataset comes also comes from the Czech Republic's Open Data Portal.
+czechia_payroll_industry_branch – A code list of sectors in the payroll table.
+czechia_price_category – A code list of food categories that appear in our overview.
+economies – GDP, Gini coefficient, tax burden, etc., for a given country and year.
+
+**SECONDARY PROJECT TABLE**
+---
+
+economies - GDP, Gini coefficient, tax burden... for a given country and year
+countries - various information about countries around the world, such as the capital city, currency, national dish, or average population height
+
+## The project contains 5 questions:
+
+***First quesstion: Do wages increase across all industries over the years, or do some decrease?***
+
+It cannot be answered definitively. In most industries, wages occasionally decreased; only in 3 industries did they never decrease: Manufacturing, Healthcare, and Other Activities.
+The most significant wage decreases occurred in Mining, with 4 declines in the years 2009, 2013, 2014, and 2016.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # Analýza dostupnosti základních potravin široké veřejnosti
 
 ---------------------------------------------
 **Popis datových sad a tabulek použitých v projektu - PRIMÁRNÍ TABULKA PROJEKTU**
@@ -73,3 +112,4 @@ Poznámky k projektu:
 > - cat_name - nazev potraviny,
 > - ind_name - odvětví,
 > - GDP - HDP
+
