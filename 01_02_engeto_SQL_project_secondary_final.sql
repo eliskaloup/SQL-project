@@ -1,4 +1,4 @@
--- Sekundarni tabulka
+-- Secundary table
 
 CREATE OR REPLACE TABLE t_eliska_loup_project_SQL_secondary_final AS 
 SELECT e.country,
