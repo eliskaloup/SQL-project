@@ -1,4 +1,4 @@
--- Otazka_3: Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
+-- Question 3: Which category of groceries has the slowest price increase (the lowest percentage year-on-year growth)?
 
 SELECT pf.categ_code,
 	pf.cat_name,
