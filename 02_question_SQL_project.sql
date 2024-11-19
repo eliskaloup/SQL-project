@@ -1,4 +1,4 @@
--- Otazka_2: Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+-- Question 2: How many liters of milk and kilograms of bread could be purchased in the first and last comparable periods in the available price and wage data?
 
 SELECT categ_code,
 	cat_name,
