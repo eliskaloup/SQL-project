@@ -1,4 +1,4 @@
--- Primarni tabulka
+-- Primary table
 
 CREATE OR REPLACE TABLE t_eliska_loup_project_SQL_primary_final AS 
 SELECT czpay.industry_branch_code AS ib_code,
@@ -32,37 +32,38 @@ ORDER BY ib_code, payroll_year, categ_code, czp.date_from;
 SELECT *
 FROM t_eliska_loup_project_sql_primary_final AS telpspf;
 
---- muj postup
+--- Step by step
 
--- kde jsou NULL hodnoty?
+-- Where are NULL values?
 SELECT *
 FROM czechia_payroll AS cp   
 WHERE cp.industry_branch_code IS NULL;
 
--- z jakych let mame data?
+-- From which years do I have data?
 SELECT min(cp.payroll_year),
 	max(cp.payroll_year)
 FROM czechia_payroll AS cp;
 
--- kontrola zda jsou roky zapsany stejne, ne v jinem tvaru
+-- Are the years in the same format or in a different one?
 SELECT DISTINCT payroll_year, payroll_quarter  
 FROM czechia_payroll AS cp 
 ORDER BY payroll_year DESC, payroll_quarter;
 
--- czechia_price: je v date_from a date_to nějaká hodnota nulová?
+-- czechia_price: Is in date_from and date_to some value NULL?
 SELECT *
 FROM czechia_price  
 WHERE date_from IS NULL
-	OR date_to IS NULL; --žádná hodnota není nulová 
+	OR date_to IS NULL; 
+-- The answer is: There is none NULL value.
 
--- z jakych let mame vsechny data?	
+-- From which years do I have data?	
 SELECT min(cp.date_from),
 	max(cp.date_from),
 	min(cp.date_to),
 	max(cp.date_to)
 FROM czechia_price AS cp;
--- data mame z let 2006 az 2018
+-- We have got data from years from 2006 untill 2018.
 
--- jelikož je datový typ definován datetime nemůže zde být nevyhovující hodnota
--- tady i zjistim, je k dispozici měření za celý rok 2006 (min(cp.date_from)= 2.1.2006) a za celý rok 2018 (max(cp.date_to)=16.12.2018)
+-- Because the data type is defined as datetime, it cannot be unfitting value.
+-- I also will find out if I have all year's measruing data in the year 2006 (min(cp.date_from)= 2.1.2006) and the same for year 2018 (max(cp.date_to)=16.12.2018)
 
