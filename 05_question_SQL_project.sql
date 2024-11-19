@@ -1,4 +1,4 @@
---Otazka_5: Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
+--Question 5: Does GDP growth affect changes in wages and food prices? In other words, if GDP rises significantly in one year, does it lead to a noticeable increase in food prices or wages in the same or the following year?
 
 CREATE OR REPLACE VIEW v_fifth_question AS 
 SELECT pf.payroll_year,
