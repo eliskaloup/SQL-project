@@ -1,6 +1,6 @@
--- Otazka_1: Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
+-- Question 1: Do wages increase across all industries over the years, or do some decrease?
 
---pouzila jsem BETWEEN 2007, protoze v roce 2006 jsou vsechny NULL
+-- I used BETWEEN 2007, because in year 2006 are all values NULL.
 
 CREATE OR REPLACE VIEW v_first_quest AS 
 SELECT 	ib_code,
